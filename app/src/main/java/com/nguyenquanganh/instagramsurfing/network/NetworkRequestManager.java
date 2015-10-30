@@ -36,4 +36,8 @@ public class NetworkRequestManager {
         this.myQueue = new RequestQueue(cache, network);
         this.myQueue.start();
     }
+
+    public void sendRequest(AbstractNetworkRequest request){
+        this.myQueue.add(request);
+    }
 }

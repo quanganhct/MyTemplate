@@ -16,10 +16,9 @@ import java.util.Map;
 /**
  * Created by QuangAnh on 10/29/2015.
  */
-public class JsonNetworkRequest extends Request<JSONObject> implements MyNetworkRequest{
+public class JsonNetworkRequest extends AbstractNetworkRequest<JSONObject> {
 
     private Map<String, String> params;
-    private Response.Listener<JSONObject> listener;
 
     public JsonNetworkRequest(String url, Map<String, String> params,
                               Response.Listener<JSONObject> reponseListener, Response.ErrorListener errorListener) {
