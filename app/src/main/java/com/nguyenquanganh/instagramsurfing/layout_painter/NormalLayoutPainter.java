@@ -10,9 +10,9 @@ import com.nguyenquanganh.instagramsurfing.R;
 /**
  * Created by nguyenquanganh on 12/13/15.
  */
-public class NormaLayoutPainter extends AbstractLayoutPainter {
+public class NormalLayoutPainter extends AbstractLayoutPainter {
 
-    public NormaLayoutPainter(Context context, int resId){
+    public NormalLayoutPainter(Context context, int resId){
         super(context, resId);
     }
 
