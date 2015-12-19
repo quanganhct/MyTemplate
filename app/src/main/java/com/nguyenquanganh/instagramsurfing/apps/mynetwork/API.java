@@ -1,4 +1,4 @@
-package com.nguyenquanganh.instagramsurfing.apps.activities.mynetwork;
+package com.nguyenquanganh.instagramsurfing.apps.mynetwork;
 
 /**
  * Created by QuangAnh on 10/30/2015.

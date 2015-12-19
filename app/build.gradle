@@ -24,6 +24,8 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.google.code.gson:gson:2.3'
     compile 'com.android.support:design:23.1.0'
+    compile 'com.astuetz:pagerslidingtabstrip:1.0.1'
+
     compile files('libs/universal-image-loader-1.9.3.jar')
     compile files('volley-library-1.0.19.jar')
 }

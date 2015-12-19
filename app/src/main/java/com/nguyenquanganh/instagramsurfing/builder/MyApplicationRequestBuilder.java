@@ -1,7 +1,7 @@
 package com.nguyenquanganh.instagramsurfing.builder;
 
 import com.android.volley.Response;
-import com.nguyenquanganh.instagramsurfing.apps.activities.mynetwork.API;
+import com.nguyenquanganh.instagramsurfing.apps.mynetwork.API;
 import com.nguyenquanganh.instagramsurfing.helper.NetworkRequestBuilder;
 import com.nguyenquanganh.instagramsurfing.network.AbstractNetworkRequest;
 

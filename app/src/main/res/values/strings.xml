@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Instagram Surfing</string>
     <string name="action_settings">Settings</string>
+    <string name="client_id">3438cd42f6444ed096359cc19a855996</string>
+    <string name="client_secret">f7d873f9d1784c2fb0362726f33ebc67</string>
+    <string name="redirect_url">http://localhost/</string>
 </resources>
