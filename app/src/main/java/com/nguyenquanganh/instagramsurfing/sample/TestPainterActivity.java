@@ -3,19 +3,17 @@ package com.nguyenquanganh.instagramsurfing.sample;
 import android.os.Bundle;
 
 import com.nguyenquanganh.instagramsurfing.R;
-import com.nguyenquanganh.instagramsurfing.layout_painter.HeaderLayoutPainter;
 import com.nguyenquanganh.instagramsurfing.layout_painter.ILayoutPainter;
-import com.nguyenquanganh.instagramsurfing.layout_painter.NormalLayoutPainter;
 import com.nguyenquanganh.instagramsurfing.layout_painter.PainterBuilder;
 
 /**
  * Created by nguyenquanganh on 12/19/15.
  */
-public class TestActivity extends SampleActivity {
+public class TestPainterActivity extends SampleActivity {
 
     @Override
     protected ILayoutPainter createPainter() {
-        return PainterBuilder.getInstance(this, R.layout.activity_test).addHeader(R.layout.activity_header).build();
+        return PainterBuilder.getInstance(this, R.layout.example_activity_body).addHeader(R.layout.example_activity_header).addFooter(R.layout.example_activity_footer).build();
     }
 
     @Override

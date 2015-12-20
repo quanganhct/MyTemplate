@@ -23,7 +23,7 @@ public class FooterLayoutPainter extends AbstractLayoutPainter {
         ViewGroup footerContainer = (ViewGroup) mainView.findViewById(R.id.footer_container);
         ViewGroup contentContainer = (ViewGroup) mainView.findViewById(R.id.footer_layout_main_content_container);
 
-        View footer = inflater.inflate(resId, footerContainer, false);
+        View footer = inflater.inflate(resId, null);
         footerContainer.addView(footer);
         contentContainer.addView(painter.getView());
     }

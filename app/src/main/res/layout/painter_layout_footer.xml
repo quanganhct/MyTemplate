@@ -17,7 +17,7 @@
         <FrameLayout
             android:id="@+id/footer_container"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="?android:actionBarSize"
             android:layout_alignParentBottom="true" />
 
     </RelativeLayout>

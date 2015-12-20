@@ -16,9 +16,12 @@
         </activity>
 
         <activity android:name=".test.TestActivity">
+
+        </activity>
+
+        <activity android:name=".sample.TestPainterActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

@@ -22,7 +22,7 @@ public class HeaderLayoutPainter extends AbstractLayoutPainter {
         ViewGroup headerContainer = (ViewGroup) mainView.findViewById(R.id.header_container);
         ViewGroup contentContainer = (ViewGroup) mainView.findViewById(R.id.header_layout_main_content_container);
 
-        View header = inflater.inflate(resId, headerContainer, false);
+        View header = inflater.inflate(resId, null);
         headerContainer.addView(header);
         contentContainer.addView(painter.getView());
     }
